@@ -1,8 +1,15 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.23",
+	"EngineAssociation": "4.22",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ProjectCritality",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"TargetPlatforms": [
 		"PS4",
 		"WindowsNoEditor"

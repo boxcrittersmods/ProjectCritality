@@ -1,0 +1,2 @@
+E:\Users\Tumble\Documents\GitHub\Project-Critality\ProjectCritality\Intermediate\Build\Win64\UE4Editor\Development\ProjectCritality\Definitions.ProjectCritality.h
+e:\users\tumble\documents\github\project-critality\projectcritality\source\projectcritality\EmptyClass.h

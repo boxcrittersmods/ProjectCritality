@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectCritality.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{856ECC91-E114-42CE-B6C9-A88864179D95}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectCritality.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectCritalityEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{230B14A2-4905-4CC6-AE94-3A39246E9BB7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{E56FD7AD-9E7A-4812-AC8B-81509CEE1DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\socketio-client-ue4">
+      <UniqueIdentifier>{D10BDEF5-3205-46A0-BF41-1DAC30A55699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\socketio-client-ue4\Source">
+      <UniqueIdentifier>{96ADE6A7-74BC-4702-9252-16B8B094009F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOClient">
+      <UniqueIdentifier>{648B7F47-B5D1-494F-A8D7-6120E0DD046E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\SocketIOClient.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient</Filter>
+    </None>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\SocketIOClient_APL.xml">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOClient\Private">
+      <UniqueIdentifier>{F459548A-60E3-4745-A3FD-77D25B35CC14}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SIOMessageConvert.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIOClient.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIOClientComponent.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIOFunctionLibrary.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Private\SocketIONative.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOClient\Public">
+      <UniqueIdentifier>{F4E114BA-EE7C-4D74-A179-AD39CC352F56}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SIOMessageConvert.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIOClient.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIOClientComponent.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIOFunctionLibrary.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOClient\Public\SocketIONative.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOClient\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\socketio-client-ue4\SocketIOClient.uplugin">
+      <Filter>Plugins\socketio-client-ue4</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Config">
+      <UniqueIdentifier>{64DDB839-FD18-4DDD-AFEB-C43420563D3C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Config\FilterPlugin.ini">
+      <Filter>Plugins\socketio-client-ue4\Config</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Resources">
+      <UniqueIdentifier>{D1666543-35C2-4016-9AAC-CE424030B60B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Resources\Icon128.png">
+      <Filter>Plugins\socketio-client-ue4\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJEditorPlugin">
+      <UniqueIdentifier>{166F6323-5F57-4F3B-97BA-37FFCED884B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\SIOJEditorPlugin.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private">
+      <UniqueIdentifier>{A5C8258B-84CC-47A2-97CB-287F8B7CE4B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private\SIOJEditorPlugin.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private\SIOJ_BreakJson.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public">
+      <UniqueIdentifier>{354CDB2E-80D1-4E75-ADE0-35F4AEC946FF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public\SIOJEditorPlugin.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public\SIOJ_BreakJson.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJEditorPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\CoreUtility">
+      <UniqueIdentifier>{5BF8C423-0D06-4E18-A4FE-85F2C1BB1065}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\CoreUtility.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\CoreUtility\Private">
+      <UniqueIdentifier>{ACDDD596-C347-4DF0-BBD8-5582C528DB47}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUBlueprintLibrary.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUFileComponent.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CULambdaRunnable.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUMeasureTimer.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\CUOpusCoder.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Private\FCoreUtility.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\CoreUtility\Public">
+      <UniqueIdentifier>{0F59FF0A-E6B7-41B4-B923-5CD802BC2B3F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUBlueprintLibrary.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUFileComponent.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CULambdaRunnable.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUMeasureTimer.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\CUOpusCoder.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\CoreUtility\Public\ICoreUtility.h">
+      <Filter>Plugins\socketio-client-ue4\Source\CoreUtility\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib">
+      <UniqueIdentifier>{41C5EEB3-9DE2-45C3-BD06-C99237A06A27}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\SocketIOLib.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib\Private">
+      <UniqueIdentifier>{56F23E89-2C12-47B5-BCBF-0BDC8E62642E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\sio_client.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\sio_socket.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\SocketIOLib.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal">
+      <UniqueIdentifier>{78E4E045-2F4B-425D-AAE3-5DA8CFD9D342}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_client_impl.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_client_impl.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_packet.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal\sio_packet.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Private\internal</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SocketIOLib\Public">
+      <UniqueIdentifier>{6E52FC2B-0911-4A6E-A6E0-400B092E4D42}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\sio_client.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\sio_message.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\sio_socket.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SocketIOLib\Public\SocketIOLib.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SocketIOLib\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJson">
+      <UniqueIdentifier>{709F5E5D-D367-47FC-B6EE-5CEA6E318FF2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\SIOJson.Build.cs">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson</Filter>
+    </None>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJson\Private">
+      <UniqueIdentifier>{98AB1805-ED39-497D-8E3D-833222F31305}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJConvert.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJLibrary.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJRequestJSON.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJson.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJsonObject.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Private\SIOJsonValue.cpp">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\socketio-client-ue4\Source\SIOJson\Public">
+      <UniqueIdentifier>{67740C20-0E6B-422F-89B6-64D605015075}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\ISIOJson.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJConvert.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJLibrary.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJRequestJSON.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJsonObject.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJsonValue.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\socketio-client-ue4\Source\SIOJson\Public\SIOJTypes.h">
+      <Filter>Plugins\socketio-client-ue4\Source\SIOJson\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectCritality">
+      <UniqueIdentifier>{3CB04E58-8B29-464F-BF5A-CE61CCED8A69}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectCritality\EmptyClass.cpp">
+      <Filter>Source\ProjectCritality</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectCritality\EmptyClass.h">
+      <Filter>Source\ProjectCritality</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ProjectCritality\ProjectCritality.Build.cs">
+      <Filter>Source\ProjectCritality</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectCritality\ProjectCritality.cpp">
+      <Filter>Source\ProjectCritality</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectCritality\ProjectCritality.h">
+      <Filter>Source\ProjectCritality</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
