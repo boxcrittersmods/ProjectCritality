@@ -1,0 +1,30 @@
+# Server Emits
+s:connect
+s:disconnect
+s:login=>c:joinRoom
+s:joinRoom
+s:beep
+s:hide
+s:show
+s:updatePlayer
+s:addEgg
+s:A-ADD PLAYER
+s:R-REMOVE PLAYER
+s:G-UPDATE PLAYER
+s:X-MOVE PLAYER
+s:E-ADD EFFECT
+s:M-SEND MESSAGE
+
+#Client emits
+c:connect=>s:connect
+c:login=>s:login
+c:disconnect=>s:R
+c:joinRoom=>s:A(1:s:joinRoom)
+c:sendMessage=>s:M
+c:click=>s:X
+c:trigger
+c:code
+c:updateGear
+
+c:connect=>s:connect
+c:login=>s:login=>c:joinRoom=>s:A(1:s:joinRoom)
