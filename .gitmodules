@@ -1,3 +1,3 @@
-[submodule "ProjectCritality/Content/Scripts/private-box"]
-	path = ProjectCritality/Content/Scripts/private-box
+[submodule "Content/Scripts/private-box"]
+	path = Content/Scripts/private-box
 	url = https://github.com/boxcritters/private-box.git
