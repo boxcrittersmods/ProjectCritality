@@ -285,7 +285,10 @@ void FSocketIONative::OnRawEvent(const FString& EventName,
 		{
 			FCULambdaRunnable::RunShortLambdaOnGameThread([&, SafeFunction, SafeName, data]
 			{
-				SafeFunction(SafeName, data);
+				if (SafeFunction)
+				{
+					SafeFunction(SafeName, data);
+				}
 			});
 		}
 		else
