@@ -1,9 +1,9 @@
 [submodule "Plugins/socketio-client-ue4"]
 	path = Plugins/socketio-client-ue4
-	url = https://github.com/boxcritters/socketio-client-ue4.git
+	url = https://github.com/getnamo/socketio-client-ue4.git
 [submodule "Plugins/nodejs-ue4"]
 	path = Plugins/nodejs-ue4
-	url = https://github.com/boxcritters/nodejs-ue4.git
+	url = https://github.com/getnamo/nodejs-ue4.git
 [submodule "Content/Scripts/private-box"]
 	path = Content/Scripts/private-box
 	url = https://github.com/boxcritters/private-box.git
