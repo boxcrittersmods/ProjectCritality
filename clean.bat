@@ -31,4 +31,8 @@ del /s /q *.opensdf
 del /s /q *.sdf
 del /s /q *.VC.db
 del /s /q *.VC.opendb
+
+cd Plugins/nodejs-ue4/Content/Scripts
+npm i
+npm audit fix
 pause
