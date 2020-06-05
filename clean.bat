@@ -1,4 +1,5 @@
 @echo off
+git submodule update --init --recursive
 rd /s /q Binaries
 rd /s /q Build
 rd /s /q Saved
