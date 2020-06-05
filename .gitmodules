@@ -4,3 +4,6 @@
 [submodule "Plugins/nodejs-ue4"]
 	path = Plugins/nodejs-ue4
 	url = https://github.com/getnamo/nodejs-ue4.git
+[submodule "Content/Scripts"]
+	path = Content/Scripts
+	url = https://github.com/boxcritters/private-box.git
