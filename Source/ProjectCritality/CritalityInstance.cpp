@@ -3,3 +3,12 @@
 
 #include "CritalityInstance.h"
 
+void UCritalityInstance::Init()
+{
+	//UGameplayStatics::world
+}
+
+void UCritalityInstance::Shutdown()
+{
+
+}
